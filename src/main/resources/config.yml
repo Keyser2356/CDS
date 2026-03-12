@@ -1,0 +1,21 @@
+metrics:
+  # Enable sending metrics to bStats (requires a valid bStats plugin id below)
+  enabled: false
+  # Your bStats plugin id (register plugin on https://bstats.org/) — set to 0 to disable
+  bstats-id: 0
+
+# Command access control
+commands:
+  # If true, only players with permission `cds.admin` (or OP) can use the /cds command at all.
+  # Set to false to allow all players to use /cds (plugin will not check admin permission).
+  cds_admin_only: true
+
+link:
+  # type: short (show only discord.gg/...), or full (show full link)
+  type: short
+
+message:
+  # Template for the message shown to player when they click a marker.
+  # Use {link} placeholder where the clickable link text should be inserted.
+  # Supports '&' color codes.
+  template: '&aПрисоединяйтесь к нашему Discord для получения обновлений, микро-событий и подарков &8> &6{link}'

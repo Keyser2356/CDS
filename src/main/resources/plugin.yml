@@ -1,0 +1,17 @@
+name: CDS
+main: ru.mirai.cds.CDSPlugin
+version: 1.0
+api-version: "1.21"
+commands:
+  cds:
+    description: Управление Discord ссылками
+    usage: /<command> <add|remove|list>
+    aliases: [cdslink]
+    permission: cds.use
+permissions:
+  cds.admin:
+    description: Права администратора для /cds add/remove
+    default: op
+  cds.use:
+    description: Использование команды cds
+    default: false
