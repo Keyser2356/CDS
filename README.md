@@ -29,7 +29,7 @@
 
 ### Установка
 
-1. Скачай [CDS.jar](https://github.com/твой_ник/CDS/releases/latest)  
+1. Скачай [CDS.jar](https://github.com/Keyser2356/CDS/releases/latest)  
 2. Положи файл в папку `plugins`  
 3. Перезапусти сервер  
 4. Настрой `plugins/CDS/config.yml` (если нужно)  
